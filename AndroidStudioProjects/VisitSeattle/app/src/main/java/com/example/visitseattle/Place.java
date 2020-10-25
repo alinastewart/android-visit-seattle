@@ -12,16 +12,24 @@ public class Place {
     /** Phone number to call */
     private String mphoneNumber;
 
+    /** Image resource ID for the word */
+    private int mImageResourceId;
+
+
+
+
     /**
      * Create a new Place object.
      *
-     * @param placeName is the name of place to visit
+     * @param placeName is the name of the place
      * @param phoneNumber is the phone number of the place
+     * @param imageResourceId is the drawable resource ID for the image associated with the place
+     *
      */
-
-    public Place(String placeName, String phoneNumber) {
+    public Place(String placeName, String phoneNumber, int imageResourceId) {
         mplaceName = placeName;
         mphoneNumber = phoneNumber;
+        mImageResourceId = imageResourceId;
     }
 
     /**
@@ -37,6 +45,13 @@ public class Place {
      */
     public String getphoneNumber() {
         return mphoneNumber;
+    }
+
+    /**
+     * Return the image resource ID of the word.
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 
 }

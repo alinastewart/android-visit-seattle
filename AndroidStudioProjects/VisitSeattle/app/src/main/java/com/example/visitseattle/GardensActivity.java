@@ -16,12 +16,12 @@ public class GardensActivity extends AppCompatActivity {
 
         // Create a list of places
         ArrayList<Place> seattlePlaces = new ArrayList<Place>();
-        seattlePlaces.add(new Place("Japanese Garden", "(425) 666 222"));
-        seattlePlaces.add(new Place("Kubota Garden","(425) 777 333"));
-        seattlePlaces.add(new Place("Dunn Gardens","(425) 777 333"));
-        seattlePlaces.add(new Place("UW Botanic Garden", "(425) 888 333"));
-        seattlePlaces.add(new Place("Woodland Park Rose Garden", "(425) 666 555"));
-        seattlePlaces.add(new Place("Carl S English Botanical Gardens", "(425) 444 777"));
+        seattlePlaces.add(new Place("Japanese Garden", "(425) 666 222", R.drawable.garden_japanese));
+        seattlePlaces.add(new Place("Kubota Garden","(425) 777 333", R.drawable.garden_kubota));
+        seattlePlaces.add(new Place("Dunn Gardens","(425) 777 333", R.drawable.dunn_gardens));
+        seattlePlaces.add(new Place("UW Botanic Garden", "(425) 888 333", R.drawable.garden_uw_botanic));
+        seattlePlaces.add(new Place("Woodland Park Rose Garden", "(425) 666 555", R.drawable.garden_woodland_park_rose));
+        seattlePlaces.add(new Place("Carl S English Botanical Gardens", "(425) 444 777", R.drawable.carl_s_english_botanical_gardens));
 
 
         PlaceAdapter seattleAdapter = new PlaceAdapter(this, seattlePlaces);
