@@ -7,7 +7,7 @@
     <color name="primary_dark_color">#207567</color>
 
     <!-- Background color for app -->
-    <color name="tan_background">#CCB8D6</color>
+    <color name="purple_background">#CCB8D6</color>
 
     <!-- Background color for the numbers category -->
     <color name="category_hotels">#358873</color>
