@@ -1,69 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@color/purple_background"
-android:orientation="vertical"
-tools:context="com.example.visitseattle.MainActivity">
-
-<!-- Hotels category -->
-<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/category_hotels">
-    <TextView
-        android:id="@+id/hotels"
-        style="@style/CategoryStyle"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_hotels" />
-</FrameLayout>
+    android:layout_height="match_parent"
+    android:background="@color/purple_background"
+    android:orientation="vertical"
+    tools:context="com.example.visitseattle.MainActivity">
 
-<!-- Restaurants category -->
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/category_restaurants">
-    <TextView
-        android:id="@+id/restaurants"
-        style="@style/CategoryStyle"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_restaurants" />
-</FrameLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
-<!-- Museums category -->
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/category_museums">
-    <TextView
-        android:id="@+id/museums"
-        style="@style/CategoryStyle"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_museums" />
-</FrameLayout>
-
-<!-- Malls category -->
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/category_malls">
-    <TextView
-        android:id="@+id/malls"
-        style="@style/CategoryStyle"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_malls" />
-</FrameLayout>
-
-<!-- Gardens category -->
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/category_gardens">
-    <TextView
-        android:id="@+id/gardens"
-        style="@style/CategoryStyle"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_gardens" />
-</FrameLayout>
 </LinearLayout>

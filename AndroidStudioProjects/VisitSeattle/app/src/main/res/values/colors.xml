@@ -10,17 +10,12 @@
     <color name="purple_background">#CCB8D6</color>
 
     <!-- Background color for the numbers category -->
-    <color name="category_hotels">#358873</color>
 
     <!-- Background color for the colors category -->
-    <color name="category_restaurants">#4E9C81</color>
 
     <!-- Background color for the phrases category -->
-    <color name="category_museums">#6BAF92</color>
 
     <!-- Background color for the family members category -->
-    <color name="category_malls">#8DC3A7</color>
 
     <!-- Background color for the phrases category -->
-    <color name="category_gardens">#B4D6C1</color>
 </resources>
